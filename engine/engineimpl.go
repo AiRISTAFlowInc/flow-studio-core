@@ -4,16 +4,16 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/project-flogo/core/action"
-	"github.com/project-flogo/core/app"
-	"github.com/project-flogo/core/data/property"
-	"github.com/project-flogo/core/engine/channels"
-	"github.com/project-flogo/core/engine/runner"
-	"github.com/project-flogo/core/engine/secret"
-	"github.com/project-flogo/core/support/log"
-	"github.com/project-flogo/core/support/managed"
-	"github.com/project-flogo/core/support/service"
-	"github.com/project-flogo/core/support/trace"
+	"github.com/AiRISTAFlowInc/flow-studio-core/action"
+	"github.com/AiRISTAFlowInc/flow-studio-core/app"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/property"
+	"github.com/AiRISTAFlowInc/flow-studio-core/engine/channels"
+	"github.com/AiRISTAFlowInc/flow-studio-core/engine/runner"
+	"github.com/AiRISTAFlowInc/flow-studio-core/engine/secret"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support/log"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support/managed"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support/service"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support/trace"
 )
 
 // engineImpl is the type for the Default Engine Implementation

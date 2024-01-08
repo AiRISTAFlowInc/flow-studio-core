@@ -1,6 +1,6 @@
 package resolve
 
-import "github.com/project-flogo/core/data"
+import "github.com/AiRISTAFlowInc/flow-studio-core/data"
 
 var r simpleResolve
 

@@ -5,10 +5,10 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/project-flogo/core/app"
-	"github.com/project-flogo/core/data/schema"
-	"github.com/project-flogo/core/engine/secret"
-	"github.com/project-flogo/core/support"
+	"github.com/AiRISTAFlowInc/flow-studio-core/app"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/schema"
+	"github.com/AiRISTAFlowInc/flow-studio-core/engine/secret"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support"
 )
 
 var appName, appVersion string

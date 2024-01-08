@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/project-flogo/core/action"
-	"github.com/project-flogo/core/support"
+	"github.com/AiRISTAFlowInc/flow-studio-core/action"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support"
 	"github.com/stretchr/testify/assert"
 )
 

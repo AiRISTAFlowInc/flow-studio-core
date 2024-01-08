@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/project-flogo/core/support/log"
-	"github.com/project-flogo/core/trigger"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support/log"
+	"github.com/AiRISTAFlowInc/flow-studio-core/trigger"
 )
 
 const (

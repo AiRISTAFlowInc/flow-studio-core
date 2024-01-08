@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/project-flogo/core/data"
-	"github.com/project-flogo/core/data/coerce"
-	"github.com/project-flogo/core/data/expression"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/coerce"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/expression"
 )
 
 const metadataTag = "md"

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/project-flogo/core/data"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data"
 )
 
 func init() {

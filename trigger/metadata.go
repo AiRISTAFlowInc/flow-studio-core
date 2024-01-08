@@ -1,8 +1,8 @@
 package trigger
 
 import (
-	"github.com/project-flogo/core/data"
-	"github.com/project-flogo/core/data/metadata"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/metadata"
 	"reflect"
 	"strings"
 )

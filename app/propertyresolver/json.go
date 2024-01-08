@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/project-flogo/core/data/property"
-	"github.com/project-flogo/core/support/log"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/property"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support/log"
 )
 
 var preload = make(map[string]interface{})

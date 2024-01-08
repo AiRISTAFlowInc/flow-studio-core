@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/project-flogo/core/data"
-	sampleAction "github.com/project-flogo/core/examples/action"
-	sampleTrigger "github.com/project-flogo/core/examples/trigger"
-	"github.com/project-flogo/core/support/log"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data"
+	sampleAction "github.com/AiRISTAFlowInc/flow-studio-core/examples/action"
+	sampleTrigger "github.com/AiRISTAFlowInc/flow-studio-core/examples/trigger"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support/log"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -47,7 +47,7 @@ type IndependentAction struct {
 }
 
 func (ind *IndependentAction) Ref() string {
-	return "github.com/project-flogo/core/examples/action"
+	return "github.com/AiRISTAFlowInc/flow-studio-core/examples/action"
 }
 func TestIndependentAction(t *testing.T) {
 

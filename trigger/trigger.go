@@ -1,8 +1,8 @@
 package trigger
 
 import (
-	"github.com/project-flogo/core/support/log"
-	"github.com/project-flogo/core/support/managed"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support/log"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support/managed"
 )
 
 // Trigger is object that triggers/starts flow instances and

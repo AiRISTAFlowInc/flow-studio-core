@@ -2,9 +2,9 @@ package action
 
 import (
 	"fmt"
-	"github.com/project-flogo/core/support/log"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support/log"
 
-	"github.com/project-flogo/core/support"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support"
 )
 
 var (

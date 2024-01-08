@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/project-flogo/core/data"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data"
 )
 
 // Resolver is for resolving a value for a specific environment or construct, ex. OS environment

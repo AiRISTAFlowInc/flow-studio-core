@@ -2,9 +2,9 @@ package ast
 
 import (
 	"fmt"
-	"github.com/project-flogo/core/data"
-	"github.com/project-flogo/core/data/coerce"
-	"github.com/project-flogo/core/data/resolve"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/coerce"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/resolve"
 	"strings"
 )
 

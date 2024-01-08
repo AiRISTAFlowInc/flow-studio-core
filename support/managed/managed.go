@@ -2,7 +2,7 @@ package managed
 
 import (
 	"fmt"
-	"github.com/project-flogo/core/support/log"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support/log"
 )
 
 // Managed is an interface that is implemented by an object that needs to be

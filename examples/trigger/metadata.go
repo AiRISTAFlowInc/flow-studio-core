@@ -1,7 +1,7 @@
 package sample
 
 import (
-	"github.com/project-flogo/core/data/coerce"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/coerce"
 )
 
 type Settings struct {

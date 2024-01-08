@@ -5,7 +5,7 @@ import (
 	"runtime/debug"
 	"sync"
 
-	"github.com/project-flogo/core/support/log"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support/log"
 )
 
 type Emitter struct {

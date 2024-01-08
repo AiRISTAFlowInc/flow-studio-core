@@ -1,7 +1,7 @@
 package builtin
 
 import (
-	"github.com/project-flogo/core/data/expression/function"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/expression/function"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

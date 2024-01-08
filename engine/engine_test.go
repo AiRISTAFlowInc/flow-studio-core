@@ -3,7 +3,7 @@ package engine
 import (
 	"testing"
 
-	"github.com/project-flogo/core/app"
+	"github.com/AiRISTAFlowInc/flow-studio-core/app"
 	"github.com/stretchr/testify/assert"
 )
 

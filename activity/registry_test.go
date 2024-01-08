@@ -60,7 +60,7 @@ func TestRegisterDupActivity(t *testing.T) {
 
 	err := registerDup()
 	if assert.NotNil(t, err) {
-		assert.Equal(t, "activity already registered: github.com/project-flogo/core/activity", err.Error())
+		assert.Equal(t, "activity already registered: github.com/AiRISTAFlowInc/flow-studio-core/activity", err.Error())
 	}
 }
 
@@ -112,7 +112,7 @@ func TestGetFactoriesOk(t *testing.T) {
 	_ = Register(act, testFactory)
 
 	// Get factory
-	f := GetFactory("github.com/project-flogo/core/activity")
+	f := GetFactory("github.com/AiRISTAFlowInc/flow-studio-core/activity")
 	assert.NotNil(t, f)
 }
 

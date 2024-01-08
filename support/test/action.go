@@ -1,8 +1,8 @@
 package test
 
 import (
-	"github.com/project-flogo/core/app/resource"
-	"github.com/project-flogo/core/support/service"
+	"github.com/AiRISTAFlowInc/flow-studio-core/app/resource"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support/service"
 )
 
 func NewActionInitCtx() *ActionInitCtx {

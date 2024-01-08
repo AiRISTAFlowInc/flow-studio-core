@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/project-flogo/core/data/mapper/config"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/mapper/config"
 	"reflect"
 	"strconv"
 	"strings"

@@ -6,16 +6,16 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/project-flogo/core/action"
-	"github.com/project-flogo/core/app"
-	"github.com/project-flogo/core/app/resource"
-	"github.com/project-flogo/core/data"
-	"github.com/project-flogo/core/data/coerce"
-	"github.com/project-flogo/core/data/metadata"
-	"github.com/project-flogo/core/engine"
-	"github.com/project-flogo/core/engine/runner"
-	"github.com/project-flogo/core/support"
-	"github.com/project-flogo/core/trigger"
+	"github.com/AiRISTAFlowInc/flow-studio-core/action"
+	"github.com/AiRISTAFlowInc/flow-studio-core/app"
+	"github.com/AiRISTAFlowInc/flow-studio-core/app/resource"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/coerce"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/metadata"
+	"github.com/AiRISTAFlowInc/flow-studio-core/engine"
+	"github.com/AiRISTAFlowInc/flow-studio-core/engine/runner"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support"
+	"github.com/AiRISTAFlowInc/flow-studio-core/trigger"
 )
 
 // App is the structure that defines an application

@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"runtime/debug"
 
-	"github.com/project-flogo/core/action"
-	"github.com/project-flogo/core/data/expression"
-	"github.com/project-flogo/core/data/mapper"
-	"github.com/project-flogo/core/data/schema"
-	"github.com/project-flogo/core/support"
-	"github.com/project-flogo/core/support/log"
-	"github.com/project-flogo/core/support/managed"
-	"github.com/project-flogo/core/trigger"
+	"github.com/AiRISTAFlowInc/flow-studio-core/action"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/expression"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/mapper"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/schema"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support/log"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support/managed"
+	"github.com/AiRISTAFlowInc/flow-studio-core/trigger"
 )
 
 func (a *App) createSharedActions(actionConfigs []*action.Config) (map[string]action.Action, error) {

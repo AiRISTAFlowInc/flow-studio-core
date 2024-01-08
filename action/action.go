@@ -3,9 +3,9 @@ package action
 import (
 	"context"
 
-	"github.com/project-flogo/core/app/resource"
-	"github.com/project-flogo/core/data/metadata"
-	"github.com/project-flogo/core/support/service"
+	"github.com/AiRISTAFlowInc/flow-studio-core/app/resource"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/metadata"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support/service"
 )
 
 // Action is an action to perform as a result of a trigger

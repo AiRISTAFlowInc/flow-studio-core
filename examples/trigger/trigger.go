@@ -3,9 +3,9 @@ package sample
 import (
 	"context"
 
-	"github.com/project-flogo/core/data/coerce"
-	"github.com/project-flogo/core/data/metadata"
-	"github.com/project-flogo/core/trigger"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/coerce"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/metadata"
+	"github.com/AiRISTAFlowInc/flow-studio-core/trigger"
 )
 
 var triggerMd = trigger.NewMetadata(&Settings{}, &HandlerSettings{}, &Output{}, &Reply{})

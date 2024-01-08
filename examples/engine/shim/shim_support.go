@@ -3,9 +3,9 @@ package main
 import (
 	"os"
 
-	_ "github.com/project-flogo/core/data/expression/script"
-	"github.com/project-flogo/core/engine"
-	"github.com/project-flogo/core/support/log"
+	_ "github.com/AiRISTAFlowInc/flow-studio-core/data/expression/script"
+	"github.com/AiRISTAFlowInc/flow-studio-core/engine"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support/log"
 )
 
 var (

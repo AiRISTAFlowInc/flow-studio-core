@@ -3,8 +3,8 @@ package resolve
 import (
 	"fmt"
 
-	"github.com/project-flogo/core/data"
-	"github.com/project-flogo/core/data/path"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/path"
 )
 
 var loopResolverInfo = NewImplicitResolverInfo(false, true)

@@ -3,7 +3,7 @@ package data
 import (
 	"encoding/json"
 
-	"github.com/project-flogo/core/data/schema"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/schema"
 )
 
 func NewAttribute(name string, dataType Type, value interface{}) *Attribute {

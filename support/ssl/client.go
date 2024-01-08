@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/project-flogo/core/data/coerce"
-	"github.com/project-flogo/core/support/log"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/coerce"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support/log"
 )
 
 const ConfigSchema = `

@@ -2,11 +2,11 @@ package mapper
 
 import (
 	"fmt"
-	"github.com/project-flogo/core/data"
-	"github.com/project-flogo/core/data/expression"
-	"github.com/project-flogo/core/data/mapper/config"
-	"github.com/project-flogo/core/data/resolve"
-	"github.com/project-flogo/core/support/log"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/expression"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/mapper/config"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/resolve"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support/log"
 )
 
 type ExprMapperFactory struct {

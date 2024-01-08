@@ -2,15 +2,15 @@ package trigger
 
 import (
 	"context"
-	"github.com/project-flogo/core/support/log"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support/log"
 	"testing"
 
-	"github.com/project-flogo/core/action"
-	"github.com/project-flogo/core/data/expression"
-	"github.com/project-flogo/core/data/mapper"
-	"github.com/project-flogo/core/data/metadata"
-	"github.com/project-flogo/core/data/resolve"
-	"github.com/project-flogo/core/engine/runner"
+	"github.com/AiRISTAFlowInc/flow-studio-core/action"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/expression"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/mapper"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/metadata"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/resolve"
+	"github.com/AiRISTAFlowInc/flow-studio-core/engine/runner"
 	"github.com/stretchr/testify/assert"
 )
 

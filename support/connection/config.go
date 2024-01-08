@@ -3,8 +3,8 @@ package connection
 import (
 	"fmt"
 
-	"github.com/project-flogo/core/app/resolve"
-	"github.com/project-flogo/core/support"
+	"github.com/AiRISTAFlowInc/flow-studio-core/app/resolve"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support"
 )
 
 type Config struct {

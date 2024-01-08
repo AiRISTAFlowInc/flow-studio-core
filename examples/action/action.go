@@ -3,9 +3,9 @@ package sample
 import (
 	"context"
 
-	"github.com/project-flogo/core/action"
-	"github.com/project-flogo/core/data/metadata"
-	"github.com/project-flogo/core/support/log"
+	"github.com/AiRISTAFlowInc/flow-studio-core/action"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/metadata"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support/log"
 )
 
 func init() {

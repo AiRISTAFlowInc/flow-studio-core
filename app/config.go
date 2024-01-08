@@ -4,12 +4,12 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/project-flogo/core/action"
-	"github.com/project-flogo/core/app/resource"
-	"github.com/project-flogo/core/data"
-	"github.com/project-flogo/core/data/schema"
-	"github.com/project-flogo/core/support/connection"
-	"github.com/project-flogo/core/trigger"
+	"github.com/AiRISTAFlowInc/flow-studio-core/action"
+	"github.com/AiRISTAFlowInc/flow-studio-core/app/resource"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/schema"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support/connection"
+	"github.com/AiRISTAFlowInc/flow-studio-core/trigger"
 )
 
 const (

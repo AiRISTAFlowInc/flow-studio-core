@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/project-flogo/core/app/propertyresolver"
-	"github.com/project-flogo/core/data/property"
-	"github.com/project-flogo/core/engine/runner"
-	"github.com/project-flogo/core/support/log"
+	"github.com/AiRISTAFlowInc/flow-studio-core/app/propertyresolver"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/property"
+	"github.com/AiRISTAFlowInc/flow-studio-core/engine/runner"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support/log"
 )
 
 const (

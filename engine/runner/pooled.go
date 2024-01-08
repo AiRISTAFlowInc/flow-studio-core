@@ -3,9 +3,9 @@ package runner
 import (
 	"context"
 	"errors"
-	"github.com/project-flogo/core/action"
-	"github.com/project-flogo/core/support"
-	"github.com/project-flogo/core/support/log"
+	"github.com/AiRISTAFlowInc/flow-studio-core/action"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support/log"
 )
 
 // PooledRunner is a action runner that queues and runs a action in a worker pool

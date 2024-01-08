@@ -7,8 +7,8 @@ import (
 	"runtime"
 	"runtime/pprof"
 
-	_ "github.com/project-flogo/core/data/expression/script"
-	"github.com/project-flogo/core/engine"
+	_ "github.com/AiRISTAFlowInc/flow-studio-core/data/expression/script"
+	"github.com/AiRISTAFlowInc/flow-studio-core/engine"
 )
 
 var (

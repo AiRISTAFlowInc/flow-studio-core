@@ -4,7 +4,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/project-flogo/core/support/log"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support/log"
 )
 
 var emitters = make(map[string]*Emitter)

@@ -1,8 +1,8 @@
 package activity
 
 import (
-	"github.com/project-flogo/core/data/mapper"
-	"github.com/project-flogo/core/support/log"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/mapper"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support/log"
 )
 
 // Activity is an interface for defining a custom Activity Execution

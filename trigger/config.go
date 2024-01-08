@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"github.com/project-flogo/core/action"
-	"github.com/project-flogo/core/data/expression"
-	"github.com/project-flogo/core/data/metadata"
-	"github.com/project-flogo/core/data/resolve"
+	"github.com/AiRISTAFlowInc/flow-studio-core/action"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/expression"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/metadata"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/resolve"
 )
 
 // Config is the configuration for a Trigger

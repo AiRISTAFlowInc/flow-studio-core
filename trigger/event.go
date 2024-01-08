@@ -3,7 +3,7 @@ package trigger
 import (
 	"context"
 
-	"github.com/project-flogo/core/engine/event"
+	"github.com/AiRISTAFlowInc/flow-studio-core/engine/event"
 )
 
 type Status string

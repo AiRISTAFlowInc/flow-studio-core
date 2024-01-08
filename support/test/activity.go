@@ -1,9 +1,9 @@
 package test
 
 import (
-	"github.com/project-flogo/core/activity"
-	"github.com/project-flogo/core/data"
-	"github.com/project-flogo/core/data/metadata"
+	"github.com/AiRISTAFlowInc/flow-studio-core/activity"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/metadata"
 )
 
 func init() {

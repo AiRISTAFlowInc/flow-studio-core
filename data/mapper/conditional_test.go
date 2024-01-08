@@ -3,7 +3,7 @@ package mapper
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/project-flogo/core/data"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

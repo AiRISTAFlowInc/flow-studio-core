@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/project-flogo/core/support/managed"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support/managed"
 )
 
 // Manager is a simple service manager

@@ -7,9 +7,9 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/project-flogo/core/app"
-	"github.com/project-flogo/core/support/log"
-	"github.com/project-flogo/core/support/managed"
+	"github.com/AiRISTAFlowInc/flow-studio-core/app"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support/log"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support/managed"
 )
 
 var managedServices []managed.Managed

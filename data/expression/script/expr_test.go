@@ -4,13 +4,13 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/project-flogo/core/data/property"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/property"
 	"os"
 	"testing"
 	"time"
 
-	"github.com/project-flogo/core/data"
-	"github.com/project-flogo/core/data/resolve"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/resolve"
 	"github.com/stretchr/testify/assert"
 )
 

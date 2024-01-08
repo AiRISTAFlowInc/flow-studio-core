@@ -2,7 +2,7 @@ package trigger
 
 import (
 	"context"
-	"github.com/project-flogo/core/support"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support"
 	"time"
 )
 

@@ -1,6 +1,6 @@
 package data
 
-import "github.com/project-flogo/core/data/schema"
+import "github.com/AiRISTAFlowInc/flow-studio-core/data/schema"
 
 type TypedValue interface {
 	Type() Type

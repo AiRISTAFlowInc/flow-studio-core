@@ -3,8 +3,8 @@ package sample
 import (
 	"testing"
 
-	"github.com/project-flogo/core/activity"
-	"github.com/project-flogo/core/support/test"
+	"github.com/AiRISTAFlowInc/flow-studio-core/activity"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support/test"
 	"github.com/stretchr/testify/assert"
 )
 

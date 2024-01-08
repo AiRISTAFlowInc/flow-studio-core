@@ -1,8 +1,8 @@
 package runner
 
 import (
-	"github.com/project-flogo/core/app"
-	"github.com/project-flogo/core/support/log"
+	"github.com/AiRISTAFlowInc/flow-studio-core/app"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support/log"
 	"sync"
 	"time"
 )

@@ -6,11 +6,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/project-flogo/core/data"
-	"github.com/project-flogo/core/data/coerce"
-	"github.com/project-flogo/core/data/expression/function"
-	_ "github.com/project-flogo/core/data/expression/script"
-	"github.com/project-flogo/core/data/resolve"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/coerce"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/expression/function"
+	_ "github.com/AiRISTAFlowInc/flow-studio-core/data/expression/script"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/resolve"
 	"github.com/stretchr/testify/assert"
 )
 

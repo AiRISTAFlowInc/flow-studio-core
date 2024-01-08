@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/project-flogo/core/data"
-	"github.com/project-flogo/core/data/coerce"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/coerce"
 )
 
 type FieldDetails struct {

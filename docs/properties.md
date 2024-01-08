@@ -1,5 +1,5 @@
 #Properties
-In Flogo, the concept of an application-level property bag is available to allow reuse of properties across different actions, triggers and activities.  For example, they can be used in trigger or activity settings. Properties are accessed via the `$property` resolver and made available to the scopes defined in the [mappings](mapping.md) documentation.
+In Flogo, the concept of an application-level property bag is available to allow reuse of properties across different actions, triggers and activities. For example, they can be used in trigger or activity settings. Properties are accessed via the `$property` resolver and made available to the scopes defined in the [mappings](mapping.md) documentation.
 
 ### Configuration
 
@@ -37,7 +37,8 @@ As previously stated, properties are accessible via the `$property` resolver. Co
 ```
 
 ### Grouping of properties
-Even though the engine itself doesn't support property grouping, this can be accomplished by using a naming convention in your application. Since property names allow the use of `.`, a naming convention like `<group>.<sub-group>...<name>` can be used to create an artifical grouping of related properties. 
+
+Even though the engine itself doesn't support property grouping, this can be accomplished by using a naming convention in your application. Since property names allow the use of `.`, a naming convention like `<group>.<sub-group>...<name>` can be used to create an artifical grouping of related properties.
 
 ```json
 {
@@ -69,16 +70,14 @@ Even though the engine itself doesn't support property grouping, this can be acc
   ]
 ```
 
-
 These properties can be accessed via `$property[PURCHASE.SERVICE.DB.URL]` or `$property[INVENTORY.SERVICE.DB.URL]`
 
 ### Overriding properties at runtime
 
 In order to override properties at runtime, you have to enable external property resolvers.
 
-This can be done by setting the `FLOGO_APP_PROP_RESOLVERS` environment variable.  Currently, there are two built-in external
+This can be done by setting the `FLOGO_APP_PROP_RESOLVERS` environment variable. Currently, there are two built-in external
 property resolvers: json(JSON) and env(Environment Variable).
-
 
 ```terminal
 FLOGO_APP_PROP_RESOLVERS=env,json ./<app_binary>
@@ -90,20 +89,21 @@ You can override app properties at runtime in two ways:
 
 When using the `json` property resolver, you can provide a comma separated list of json files that
 will override the application's existing property values.
+
 ```env
 FLOGO_APP_PROPS_JSON=app1.json,common.json
 ```
 
 **Example**
 
-Let's say you want to override some of your properties.  You will need to define your new value for a given property in your json file.
+Let's say you want to override some of your properties. You will need to define your new value for a given property in your json file.
 
 _props.json_
 
 ```json
 {
- "MyProp1": "This is new value",
- "MyProp2": 20
+  "MyProp1": "This is new value",
+  "MyProp2": 20
 }
 ```
 
@@ -111,7 +111,7 @@ Now run your application:
 
 ```terminal
 
-export FLOGO_APP_PROPS_JSON=props.json 
+export FLOGO_APP_PROPS_JSON=props.json
 FLOGO_APP_PROP_RESOLVERS=json ./MyApp
 ```
 
@@ -125,14 +125,13 @@ FLOGO_APP_PROP_RESOLVERS=env ./<app_binary>
 
 **Example**
 
-Let's say you want to override `myprop` property in your app.  You would do the following:
+Let's say you want to override `myprop` property in your app. You would do the following:
 
 ```terminal
 
 export myprop=bar
 FLOGO_APP_PROP_RESOLVERS=env ./MyApp
 ```
-
 
 ### Custom External Resolver
 
@@ -154,7 +153,7 @@ type ExternalResolver interface {
 ```go
 package sampleresolver
 
-import "github.com/project-flogo/core/data/property"
+import "github.com/AiRISTAFlowInc/flow-studio-core/data/property"
 
 
 type SamplePropertyResolver struct {
@@ -173,8 +172,8 @@ func (resolver *SamplePropertyResolver) LookupValue(propertyName string) (interf
   return "some_value"", true
 }
 ```
-*Note: In order for your resolver to be loaded in the go code, you need to add an entry to your resolver in the imports section of the engine.json*
 
+_Note: In order for your resolver to be loaded in the go code, you need to add an entry to your resolver in the imports section of the engine.json_
 
 Set the `FLOGO_APP_PROP_RESOLVERS` environment variable to `sampleresolver` while running your application. For example:
 

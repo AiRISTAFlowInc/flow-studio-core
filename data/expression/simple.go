@@ -1,8 +1,8 @@
 package expression
 
 import (
-	"github.com/project-flogo/core/data"
-	"github.com/project-flogo/core/data/resolve"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data"
+	"github.com/AiRISTAFlowInc/flow-studio-core/data/resolve"
 )
 
 func NewLiteralExpr(val interface{}) Expr {

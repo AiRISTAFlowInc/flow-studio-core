@@ -1,7 +1,7 @@
 package connection
 
 import (
-	"github.com/project-flogo/core/support"
+	"github.com/AiRISTAFlowInc/flow-studio-core/support"
 	"reflect"
 	"testing"
 )
